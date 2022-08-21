@@ -1,0 +1,27 @@
+# Frontend related changes
+area/frontend:
+  - 'web/!(Dockerfile|README.md|docker)**'
+  - 'web/!(Dockerfile|README.md|docker)**/**'
+
+# Backend related changes
+area/backend:
+  - 'api/!(Dockerfile|README.md)**'
+  - 'api/!(Dockerfile|README.md)**/**'
+
+# Infrastructure related chnages
+area/infrastructure:
+  - '+(web|api)/Dockerfile'
+  - 'docker-compose.yaml'
+  - '.github/workflows/**/**'
+  - 'web/docker/**/**'
+  - '.tool-versions'
+
+# Documentation related changes
+area/documentation:
+  - '+(web|api)/README.md'
+  - 'README.md'
+
+# .github folder related changes
+area/github:
+  - '.github/!(workflows)**'
+  - '.github/!(workflows)**/**'
